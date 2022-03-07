@@ -1,0 +1,78 @@
+ body{
+   box-sizing: border-box;
+   margin: 0rem;
+   padding: 0rem;
+   background-color: #d197bf;
+}
+header{
+  background-color: rgb(17, 15, 15);
+  padding: 30px;
+  padding-top: 0.5rem;
+  height: 35px;
+}
+.sideNav
+{
+  background-color: rgb(17, 15, 15);
+  width: 10rem;
+  /* background-color: cadetblue; */
+  position: absolute;
+  height: 95vh;
+  left: -100%;
+  transition: all 1s;
+}
+.sideNav.active
+{
+  left: 0;
+
+}
+ul li
+{
+  list-style: none;
+}
+#ul_id
+{
+  padding-left: 0.3rem;
+}
+ul li a 
+{
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: block;
+  padding: 0.2rem;
+  padding-top: 0.1rem ;
+  padding-bottom: 0.1rem ;
+
+  border-radius: 0.5rem;
+}
+ul li a:hover,
+ul li a:active
+{
+  background-color:rgb(5, 59, 80);
+  
+}
+.price , .category_tag
+{
+  font-size: 0.8rem;
+}
+.desc , .desc *
+{
+  font-size: 0.5rem
+}
+header svg
+{
+  margin-left: 2rem;
+  font-size: 2rem;
+  color: white;
+}
+.main
+{
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  
+}
+#cusom_container
+{
+  margin-left: 10rem;
+}

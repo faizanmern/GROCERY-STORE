@@ -1,0 +1,11 @@
+.category
+{
+    background-color: white;
+    border-radius: 0.5rem;
+}
+.bordered
+{
+    border-left: 1px solid rgb(224, 214, 214);
+    border-right: 1px solid rgb(224, 214, 214);
+    border-bottom: 1px solid rgb(224, 214, 214);
+}
